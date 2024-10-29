@@ -3,7 +3,7 @@ import { IoMdShare, IoMdStar, IoIosEye } from "react-icons/io";
 import { Link } from "react-router-dom";
 
 const NewsCard = ({news}) => {
-    console.log(news)
+    // console.log(news)
     const { image_url, title, details, author, _id, rating, total_view} = news; 
     return (
         <div className="p-4">
