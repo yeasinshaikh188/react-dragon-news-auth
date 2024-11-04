@@ -1,6 +1,7 @@
 import { FaBookmark } from "react-icons/fa";
 import { IoMdShare, IoMdStar, IoIosEye } from "react-icons/io";
 import { Link } from "react-router-dom";
+import NewsDetails from "../NewsDetails/NewsDetails";
 
 const NewsCard = ({news}) => {
     // console.log(news)
@@ -46,6 +47,7 @@ const NewsCard = ({news}) => {
               </div>
 
             </div>
+            
         </div>
     );
 };

@@ -40,7 +40,7 @@ const Login = () => {
 
 
      return (
-        <div>
+        <div className="p-2">
             <Navbar></Navbar>
            <div className="shadow-2xl mt-10 p-9 w-[100%] md:w-[70%] mx-auto">
            <h2 className="text-3xl font-bold text-center mb-9">Login your account</h2>

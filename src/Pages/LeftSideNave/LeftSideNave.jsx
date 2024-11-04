@@ -29,7 +29,7 @@ const LeftSideNave = () => {
 
     <div className="rounded p-2 w-full mb-3">
   <figure>
-    <img
+    <img  className='mx-auto w-full'
       src={png1}
       alt="sports" />
   </figure>
@@ -47,7 +47,7 @@ const LeftSideNave = () => {
 
     <div className="rounded p-2 w-full mb-3">
   <figure>
-    <img
+    <img className='mx-auto w-full'
       src={png2}
       alt="sports" />
   </figure>
@@ -65,7 +65,7 @@ const LeftSideNave = () => {
 
     <div className="rounded p-2 w-full mb-3">
   <figure>
-    <img
+    <img  className='mx-auto w-full'
       src={png3}
       alt="sports" />
   </figure>

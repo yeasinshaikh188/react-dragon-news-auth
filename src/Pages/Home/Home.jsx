@@ -6,12 +6,13 @@ import RightSideNav from '../Shared/RightSideNav/RightSideNav';
 import BreakingNews from './BreakingNews';
 import { useLoaderData } from 'react-router-dom';
 import NewsCard from './NewsCard';
+import NewsDetails from '../NewsDetails/NewsDetails';
 
 const Home = () => {
     const news = useLoaderData(); 
     console.log(news) 
     return (
-        <div>
+        <div className='sm:p-4'>
             <Header></Header>
             <BreakingNews></BreakingNews>
             <Navbar></Navbar>
@@ -28,7 +29,6 @@ const Home = () => {
                              key={aNews._id} 
                              news={aNews}></NewsCard>)
                     }
-                    
                 </div>
 
                 {/* left side navigation  */}
